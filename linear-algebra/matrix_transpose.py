@@ -15,3 +15,13 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
         for j in range(len(a[0])):
             res[j][i] = a[i][j]
     return res
+
+    """
+    Updated Solution:
+    
+    import numpy as np
+	.
+	.
+	.
+    return np.array(a).T.tolist()
+    """
